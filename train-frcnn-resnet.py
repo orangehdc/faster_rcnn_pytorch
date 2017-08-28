@@ -39,8 +39,8 @@ def log_print(text, color=None, on_color=None, attrs=None):
 imdb_name = 'voc_2007_trainval'
 cfg_file = 'experiments/cfgs/faster_rcnn_resnet.yml'
 #pretrained_model = 'data/pretrained_model/VGG_imagenet.npy'
-#pretrained_model = '/home/amax2/.torch/models/resnet50-19c8e357.pth'
-pretrained_model = '/home/amax2/.torch/models/resnet101-5d3b4d8f.pth'  #download restnet pth file from url in /faster_rcnn/resnet.py
+#pretrained_model = '/home/yourpath/.torch/models/resnet50-19c8e357.pth'
+pretrained_model = '/home/yourpath/.torch/models/resnet101-5d3b4d8f.pth'  #download restnet pth file from url in /faster_rcnn/resnet.py
 output_dir = 'models/resnet_model'
 
 start_step = 0
