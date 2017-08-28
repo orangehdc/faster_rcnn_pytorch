@@ -1,8 +1,10 @@
-# Faster RCNN with PyTorch
+# Resnet-Faster-RCNN with PyTorch
 This is a [PyTorch](https://github.com/pytorch/pytorch)
-implementation of Faster RCNN. 
+implementation of Resnet-Faster-RCNN. 
 This project is mainly based on [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)
-and [TFFRCNN](https://github.com/CharlesShang/TFFRCNN).
+and [TFFRCNN](https://github.com/CharlesShang/TFFRCNN)
+and [Faster RCNN with PyTorch](https://github.com/longcw/faster_rcnn_pytorch)
+and [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn).
 
 For details about R-CNN please refer to the [paper](https://arxiv.org/abs/1506.01497) 
 Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks 
