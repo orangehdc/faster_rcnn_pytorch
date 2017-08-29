@@ -1,6 +1,6 @@
 # Resnet-Faster-RCNN with PyTorch
 This is a [PyTorch](https://github.com/pytorch/pytorch)
-implementation of Resnet-Faster-RCNN. 
+implementation of **Resnet-Faster-RCNN**. 
 
 This project is mainly based on:
 
@@ -10,7 +10,7 @@ This project is mainly based on:
 
 [Faster RCNN with PyTorch](https://github.com/longcw/faster_rcnn_pytorch)
 
-[pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn).
+[pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn)
 
 
 ### Progress
@@ -21,7 +21,7 @@ This project is mainly based on:
 - [x] Training on VOC2007
 - [x] TensroBoard support
 - [x] Evaluation
-- [x] Resnet feature + Faster RCNN detection
+- [x] **Resnet feature + Faster-RCNN detection**
 
 ### Installation and demo
 0. Install the requirements (you can use pip or [Anaconda](https://www.continuum.io/downloads)):
