@@ -101,9 +101,8 @@ params = []
 for key, value in dict(net.named_parameters()).items():
     if value.requires_grad:
         params += [{'params':[value],'lr':lr, 'weight_decay': weight_decay}]
-# optimizer = torch.optim.Adam(params[-8:], lr=lr)
+
 optimizer = torch.optim.SGD(params, lr=lr, momentum=momentum, weight_decay=weight_decay)
-#optimizer = torch.optim.Adam(params, lr=lr)
 print("lr",lr)#print("weight_decay",weight_decay)
 # fix conv1 conv2 conv3 when initializing
 for p in params:
@@ -209,7 +208,7 @@ for step in range(start_step, end_step+1):
         print('save model: {}'.format(save_name))
     if step in lr_decay_steps:
         lr *= lr_decay
-        optimizer = torch.optim.SGD(params[8:], lr=lr, momentum=momentum, weight_decay=weight_decay)
+        optimizer = torch.optim.SGD(params, lr=lr, momentum=momentum, weight_decay=weight_decay)
 
     if re_cnt:
         tp, tf, fg, bg = 0., 0., 0, 0
